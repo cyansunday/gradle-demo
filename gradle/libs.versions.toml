@@ -1,4 +1,6 @@
 [versions]
 junit-bom = "5.10.0"
+aliyun-oss = "3.16.2"
 [libraries]
 junitBom = { module = "org.junit:junit-bom", version.ref = "junit-bom" }
+aliyunOss = { module = "com.aliyun.oss:aliyun-sdk-oss", version.ref = "aliyun-oss" }
