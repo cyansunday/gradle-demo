@@ -5,10 +5,6 @@ plugins {
 group = "top.devopsdoc"
 version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenLocal()
-    mavenCentral()
-}
 
 dependencies {
     testImplementation(platform(libs.junitBom))
